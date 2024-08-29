@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import collections from Mapping
 from flask import Flask, request, jsonify, render_template
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
