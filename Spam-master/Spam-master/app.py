@@ -6,7 +6,7 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 app = Flask(__name__)
-model = pickle.load(open('Spam-Detection-Project-master/model.pkl', 'rb'))
+model = pickle.load(open(r'C:\Users\kamal\Downloads\Spam-master\Spam-master\model.pkl', 'rb'))
 
 @app.route('/')
 def home():
